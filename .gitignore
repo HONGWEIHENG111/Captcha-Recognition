@@ -1,0 +1,17 @@
+# PyCharm 特定文件
+.idea/
+
+# Python 虚拟环境和缓存
+venv/
+__pycache__/
+*.pyc
+
+# 深度学习产生的大文件
+captcha_images_v2/
+*.h5
+*.keras
+*.pb
+*.ckpt
+
+# macOS 产生的系统文件 (如果有的话)
+.DS_Store
