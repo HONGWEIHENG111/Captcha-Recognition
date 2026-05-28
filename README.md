@@ -1,4 +1,5 @@
 验证码识别系统 (CNN + Bi-LSTM + CTC)
+
 📖 项目简介
 本项目是一个基于深度学习的端到端验证码识别系统。
 采用 CNN (卷积神经网络) 提取图像空间特征，Bi-LSTM (双向长短期记忆网络) 学习序列上下文信息，并结合 CTC (Connectionist Temporal Classification) 损失函数解决输入图像与输出标签长度不对齐的问题。
