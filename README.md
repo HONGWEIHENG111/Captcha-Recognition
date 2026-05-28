@@ -14,3 +14,6 @@
 命名规范：图片文件名为验证码的真实标签（例如，图片 2b827.png 表示图中的验证码字符为 "2b827"）。
 图像尺寸：所有输入图像在送入网络前，将统一被转为单通道灰度图，并 Resize 为 宽度:200 x 高度:50。
 自动拆分：代码内置了 train_test_split，默认按照 9:1 的比例随机划分训练集 (90%) 与验证/测试集 (10%)。
+
+以下是数据集下载连接
+https://github.com/AakashKumarNain/CaptchaCracker/raw/master/captcha_images_v2.zip
